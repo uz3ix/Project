@@ -4,55 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Об авторе</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
-        <div class="menu-header">
-            <ul class="menu">
-                <li>
-                    <a href="index.html">Главная</a>
-                </li>
-                <li>
-                    <a href="contacs.html">Контакты</a>
-                </li>
-                <li>
-                    <a href="news.html">Новости</a>
-                </li>
-                <li>
-                    <a href="goods.html">Товары</a>
-                </li>
-            </ul>
-        </div>
-    </header>   
-    
-    <main>
-        <div class="information-avtor">
-            <p>Информация об авторе</p>
-            <div class="image">
-                <img src="images/ava.jpeg" alt="Моя фотография">
-            </div>
-            <div class="info-about-me">
-                <p>Демидов Иван Вадимович</p>
-                <p>ЭФБО-08-24</p>
-                <p>Обо мне: Родился в Москве, в 4 года оказался во Владимире, в 18 лет вернулся в Москву. Программирую, играю в футбол и волейбол. Апаю ммр в доте ; </p>
-            </div>
-            <div class="my-skills">
-                <ul class="skills">
-                    Навыки:
-                    <li>Программировать</li>
-                    <li>Спать</li>
-                    <li>Отдыхать</li>
+    <div class="page-conroller">
+        <header>
+            <div class="menu-header">
+                <ul class="menu">
+                    <li class="href-li">
+                        <a class="link-li" href="index.html">Главная</a>
+                    </li>
+                    <li class="href-li">
+                        <a  class="link-li" href="pages/contacs.html">Контакты</a>
+                    </li>
+                    <li class="href-li">
+                        <a  class="link-li" href="pages/news.html">Новости</a>
+                    </li>
+                    <li class="href-li">
+                        <a  class="link-li" href="pages/goods.html">Товары</a>
+                    </li>
                 </ul>
             </div>
-            <div class="exp-with-work">
-                <p>Опыт работы</p>
-                <p>не было, но планируется</p>
-            </div>
-        </div>
-    </main>
+        </header>   
+        
+        <main>
+            <div class="information-avtor">
+                <div class="main-information-profile">
+                    <p class="title-profile-info">Информация об авторе</p>
+                    <img class="photo-profile" src="images/ava.jpeg" alt="Моя фотография">
 
-    <footer>
-        <p>Здесь что-то скоро появится..</p>
-    </footer>
+                    <p class="my-FIO">Демидов Иван Вадимович</p>
+                    <p class="my-group">ЭФБО-08-24</p>
+                </div>
+                    <p class="text-about-me">Обо мне: Родился в Москве, в 4 года оказался во Владимире, в 18 лет вернулся в Москву. Программирую, играю в футбол и волейбол. Апаю ммр в доте ; </p>
+
+                <div class="skills-container">
+                    <div class="skill-tag">Программировать</div>
+                    <div class="skill-tag">Спать</div>
+                    <div class="skill-tag">Отдыхать</div>
+                </div>
+
+                <div class="exp-with-work">
+                    <p class="title-exp">Опыт работы</p>
+                    <p class="text-exp">не было, но планируется</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p class="footer-text">Здесь что-то скоро появится..</p>
+        </footer>
+    </div>
 </body>
 </html>
