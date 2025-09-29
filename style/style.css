@@ -230,7 +230,7 @@ footer {
     text-align: center;
 }
 
-.button-for-call{
+.contact-button{
     font-size: 20px;
     background-color: rgb(117, 193, 228);
     border-radius: 10px;
@@ -240,7 +240,7 @@ footer {
     width: 200px;
 }
 
-.button-for-call:hover{
+.contact-button:hover{
     background-color: rgb(90, 231, 114);
     height: 60px;
     width: 220px;
