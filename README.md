@@ -4,12 +4,17 @@
 
 * index.html
 * contacs.html
-* goods.html
-* news.html
+* projects.html
+* diary.html
   
 ## css file: 
 
-* style.css
+* index.css
+* contacs.css
+* projects.css
+* diary.css
+
+## I used bootstrap for customing my previous version of this project
 
 You can see site [here](https://uz3ix.github.io/Project/)
 
