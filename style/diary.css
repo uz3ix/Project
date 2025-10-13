@@ -1,0 +1,32 @@
+.skill-bar {
+    height: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.skill-progress {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+.diary-entry {
+    border-left: 4px solid #667eea;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.status-completed {
+    color: #28a745;
+}
+.status-pending {
+    color: #dc3545;
+}
+.add-entry-form {
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.nav-link.active{
+    color: white !important;
+    font-weight: bold !important;
+}   

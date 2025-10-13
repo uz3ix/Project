@@ -3,56 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакты - Портфолио студента</title>
+    <title>Контакты</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .contact-form {
-            background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
-            border-radius: 15px;
-            padding: 2rem;
-        }
-        .contact-info {
-            background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
-            color: white;
-            border-radius: 15px;
-            padding: 2rem;
-        }
-        .contact-icon {
-            width: 50px;
-            height: 50px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 15px;
-        }
-        .form-control:focus {
-            border-color: #667eea;
-            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
-        }
-        .btn-send {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border: none;
-            padding: 10px 30px;
-        }
-        .btn-send:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
-        }
-        
-    </style>
+    <link rel="stylesheet" href="../style/contacs.css">
 </head>
 <body class="bg-secondary">
 
     <div class="container min-vh-100 d-flex flex-column">
 
         <!-- Header -->
-                <header class="mb-4">
+        <header class="mb-4">
             <nav class="navbar navbar-expand-lg navbar-light bg-dark rounded shadow-sm mt-3">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold text-light" href="#">
-                        <img src="images/logo.png" alt="Логотип" height="40" class="d-inline-block align-text-top me-2">
+                        <img src="../images/icons/icon.jpg" alt="Логотип" height="40" class="d-inline-block align-text-top me-2">
                         Демидов Иван
                     </a>
                     
@@ -66,13 +30,13 @@
                                 <a class="nav-link text-light" href="../index.html">Главная</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="pages/projects.html">Проекты</a>
+                                <a class="nav-link text-light" href="projects.html">Проекты</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="pages/diary.html">Дневник</a>
+                                <a class="nav-link text-light" href="diary.html">Дневник</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-light" href="pages/contacs.html">Контакты</a>
+                                <a class="nav-link active" href="contacs.html">Контакты</a>
                             </li>
                         </ul>
                     </div>
@@ -87,28 +51,28 @@
                 <div class="col-lg-10">
                     <!-- Заголовок -->
                     <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bold mb-3">Свяжитесь со мной</h1>
-                        <p class="lead text-muted">Есть вопросы или предложения? Буду рад услышать вас!</p>
+                        <h1 class="display-5 fw-bold mb-3 text-white">Свяжитесь со мной</h1>
+                        <p class="lead text-white">Есть вопросы или предложения? Буду рад услышать вас!</p>
                     </div>
 
                     <div class="row g-4">
                         <!-- Форма обратной связи -->
                         <div class="col-lg-8">
                             <div class="contact-form shadow-sm">
-                                <h3 class="mb-4">Отправьте сообщение</h3>
+                                <h3 class="mb-4 text-white">Отправьте сообщение</h3>
                                 <form id="contactForm">
                                     <div class="mb-3">
-                                        <label for="name" class="form-label">Имя</label>
+                                        <label for="name" class="form-label text-white-50">Имя</label>
                                         <input type="text" class="form-control form-control-lg" id="name" placeholder="Введите ваше имя" required>
                                     </div>
                                     
                                     <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
+                                        <label for="email" class="form-label text-white-50">Email</label>
                                         <input type="email" class="form-control form-control-lg" id="email" placeholder="Введите ваш email" required>
                                     </div>
                                     
                                     <div class="mb-3">
-                                        <label for="message" class="form-label">Сообщение</label>
+                                        <label for="message" class="form-label text-white-50">Сообщение</label>
                                         <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="Напишите ваше сообщение..." required></textarea>
                                     </div>
                                     
@@ -178,21 +142,21 @@
                     <!-- Дополнительная информация -->
                     <div class="row mt-5">
                         <div class="col-12">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm bg-dark">
                                 <div class="card-body text-center p-4">
-                                    <h4 class="card-title mb-3">Часы работы</h4>
+                                    <h4 class="card-title mb-3 text-light">Часы работы</h4>
                                     <div class="row">
                                         <div class="col-md-4 mb-3">
-                                            <h6>Понедельник - Пятница</h6>
-                                            <p class="text-muted mb-0">9:00 - 18:00</p>
+                                            <h6 class=" text-light">Понедельник - Пятница</h6>
+                                            <p class="mb-0 text-white-50">9:00 - 18:00</p>
                                         </div>
                                         <div class="col-md-4 mb-3">
-                                            <h6>Суббота</h6>
-                                            <p class="text-muted mb-0">10:00 - 16:00</p>
+                                            <h6 class=" text-light">Суббота</h6>
+                                            <p class="text-muted mb-0 text-white-50">10:00 - 16:00</p>
                                         </div>
                                         <div class="col-md-4 mb-3">
-                                            <h6>Воскресенье</h6>
-                                            <p class="text-muted mb-0">Выходной</p>
+                                            <h6 class=" text-light">Воскресенье</h6>
+                                            <p class="text-muted mb-0 text-white-50">Выходной</p>
                                         </div>
                                     </div>
                                 </div>
@@ -204,79 +168,20 @@
             </div>
         </main>
         <!-- Footer -->
-        <footer class="mt-auto py-3 bg-white shadow-sm">
+        <footer class="mt-auto py-3 bg-dark shadow-sm bg-dark">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <span class="text-muted">© 2024 Демидов Иван</span>
+                        <span class="text-light">© 2024 Демидов Иван</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <a href="contacts.html" class="text-decoration-none text-muted">Контакты</a>
+                        <a href="pages/contacs.html" class="text-decoration-none text-light">Контакты</a>
                     </div>
                 </div>
             </div>
         </footer>
-
     </div>
-
-    <!-- Bootstrap JS (Popper + Bootstrap) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
-    <script>
-        // Переключение темы
-        document.getElementById('themeSwitch').addEventListener('click', function() {
-            const htmlElement = document.documentElement;
-            const currentTheme = htmlElement.getAttribute('data-bs-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            
-            htmlElement.setAttribute('data-bs-theme', newTheme);
-            
-            // Обновление иконки
-            const icon = this.querySelector('i');
-            if (newTheme === 'dark') {
-                icon.className = 'bi bi-sun-fill';
-                this.innerHTML = '<i class="bi bi-sun-fill"></i> Светлая';
-            } else {
-                icon.className = 'bi bi-moon-fill';
-                this.innerHTML = '<i class="bi bi-moon-fill"></i> Темная';
-            }
-            
-            // Сохранение выбора темы в localStorage
-            localStorage.setItem('theme', newTheme);
-        });
-        
-        // Загрузка сохраненной темы при загрузке страницы
-        document.addEventListener('DOMContentLoaded', function() {
-            const savedTheme = localStorage.getItem('theme') || 'light';
-            document.documentElement.setAttribute('data-bs-theme', savedTheme);
-            
-            // Обновление иконки в соответствии с сохраненной темой
-            const themeSwitch = document.getElementById('themeSwitch');
-            if (savedTheme === 'dark') {
-                themeSwitch.innerHTML = '<i class="bi bi-sun-fill"></i> Светлая';
-            } else {
-                themeSwitch.innerHTML = '<i class="bi bi-moon-fill"></i> Темная';
-            }
-            
-            // Обработка формы
-            const contactForm = document.getElementById('contactForm');
-            if (contactForm) {
-                contactForm.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    // Здесь можно добавить отправку формы на сервер
-                    const name = document.getElementById('name').value;
-                    const email = document.getElementById('email').value;
-                    
-                    alert(Спасибо, $`{name}! Ваше сообщение отправлено. Ответим на ${email} в ближайшее время.`);
-                    
-                    // Очистка формы
-                    contactForm.reset();
-                });
-            }
-        });
-    </script>
 </body>
 </html>

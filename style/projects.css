@@ -1,0 +1,31 @@
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.filter-btn {
+    transition: all 0.3s;
+}
+.filter-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
+}
+.tech-badge {
+    font-size: 0.75rem;
+    margin: 2px;
+}
+.project-image {
+    height: 200px;
+    object-fit: cover;
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+}
+.modal-content {
+    background: #2d3748;
+}
+.nav-link.active{
+    color: white !important;
+    font-weight: bold !important;
+}   
